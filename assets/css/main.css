@@ -3331,6 +3331,22 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 480px) {
+
+			#nav {
+				max-width: calc(100% - 2em);
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			#nav {
+				max-width: calc(100%);
+			}
+
+		}
+
 /* Main */
 
 	#main {
