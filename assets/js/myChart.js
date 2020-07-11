@@ -1,6 +1,6 @@
 
 //차트 생성
-
+Chart.defaults.global.legend.display = false;
 var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'horizontalBar',
