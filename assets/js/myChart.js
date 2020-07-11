@@ -27,6 +27,7 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
+        events: [],
         responsive: true,
         maintainAspectRatio : true,
         scales: {
