@@ -11,7 +11,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -52,47 +51,7 @@
 									</div>
 									<!--그래프-->
 									<div class="col-7">
-										<canvas id="myChart" width="700" height="300" style="border: black 1px solid;"></canvas>
-<script>
-var ctx = document.getElementById('myChart').getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'horizontalBar',
-    data: {
-        labels: ['바지1', '바지2', '바지3', '바지4', '바지5'],
-        datasets: [{
-            label: '시장 점유율',
-            data: [50, 30, 20, 10, 10],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            xAxes: [{
-                ticks: {
-					beginAtZero: true,
-					callback: function(value, index, values) {
-                        return value + '%';
-                    }
-                }
-            }]
-        }
-    }
-});
-</script>
+										<canvas id="myChart"></canvas>
 									</div>
 									<!--버튼-->
 									<div class="col-2">
@@ -170,6 +129,8 @@ var myChart = new Chart(ctx, {
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/chart/Chart.min.js"></script>
+			<script src="assets/js/myChart.js"></script>
 
 	</body>
 </html>
