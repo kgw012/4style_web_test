@@ -27,6 +27,8 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
+        responsive: true,
+        maintainAspectRatio : true,
         scales: {
             xAxes: [{
                 ticks: {
@@ -40,15 +42,7 @@ var myChart = new Chart(ctx, {
     }
 });
 
-
-//클릭 이벤트 처리
-// var colorArray = [
-//     'rgba(255, 99, 132, 0.2)',
-//     'rgba(54, 162, 235, 0.2)',
-//     'rgba(255, 206, 86, 0.2)',
-//     'rgba(75, 192, 192, 0.2)',
-//     'rgba(153, 102, 255, 0.2)'
-// ];
+//클릭이벤트 핸들링
 var colorArray = [
     {click:true, backgroundColor:'rgba(255, 99, 132, 0.2)', borderColor: 'rgba(255, 99, 132, 1)'},
     {click:false, backgroundColor:'rgba(54, 162, 235, 0.2)', borderColor: 'rgba(54, 162, 235, 1)'},

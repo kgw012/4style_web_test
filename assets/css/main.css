@@ -472,6 +472,32 @@ input, select, textarea {
 			margin-left: 100%;
 		}
 
+		/* 변경 */
+		@media screen and (max-width: 736px) {
+
+			.row > .col-2 {
+				width: 100%;
+			}
+			.row > .col-3 {
+				width: 100%;
+			}
+			.row > .col-4 {
+				width: 100%;
+			}
+			.row > .col-5 {
+				width: 100%;
+			}
+			.row > .col-6 {
+				width: 100%;
+			}
+			.row > .col-7 {
+				width: 100%;
+			}
+			.row > .col-8 {
+				width: 100%;
+			}
+		}
+
 		.row.gtr-0 {
 			margin-top: 0;
 			margin-left: 0em;
@@ -3819,19 +3845,5 @@ input, select, textarea {
 
 		}
 
+/* 변경 */
 /* chart */
-
-	#myChart {
-		width: "700px";
-		height: "700px";
-
-	}
-
-		@media (max-width: 736px) {
-
-			#myChart {
-				height: "700px";
-			}
-
-		}
-		
