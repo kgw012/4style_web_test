@@ -474,28 +474,40 @@ input, select, textarea {
 
 		/* 변경 */
 		@media screen and (max-width: 736px) {
-			.row > .col-1 {
+			.row > .col-1.responsive {
 				width: 100%;
 			}
-			.row > .col-2 {
+			.row > .col-2.responsive {
 				width: 100%;
 			}
-			.row > .col-3 {
+			.row > .col-3.responsive {
 				width: 100%;
 			}
-			.row > .col-4 {
+			.row > .col-4.responsive {
 				width: 100%;
 			}
-			.row > .col-5 {
+			.row > .col-5.responsive {
 				width: 100%;
 			}
-			.row > .col-6 {
+			.row > .col-6.responsive {
 				width: 100%;
 			}
-			.row > .col-7 {
+			.row > .col-7.responsive {
 				width: 100%;
 			}
-			.row > .col-8 {
+			.row > .col-8.responsive {
+				width: 100%;
+			}
+			.row > .col-9.responsive {
+				width: 100%;
+			}
+			.row > .col-10.responsive {
+				width: 100%;
+			}
+			.row > .col-11.responsive {
+				width: 100%;
+			}
+			.row > .col-12.responsive {
 				width: 100%;
 			}
 		}
