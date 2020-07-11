@@ -474,7 +474,9 @@ input, select, textarea {
 
 		/* 변경 */
 		@media screen and (max-width: 736px) {
-
+			.row > .col-1 {
+				width: 100%;
+			}
 			.row > .col-2 {
 				width: 100%;
 			}
