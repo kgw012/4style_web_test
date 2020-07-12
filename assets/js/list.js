@@ -8,16 +8,16 @@ for(var i = 0; i < num; i++){
 			<!--목록-->
 				<div class="row gtr-uniform">
 					<div class="col-4">
-						<span class="image fit"><img src="test_image02.jpg" alt="" /></span>
-						<p>상품설명</p>
+						<span class="image fit" style="margin-bottom: 0;"><img src="test_image02.jpg" alt="" /></span>
+                        <p style="text-align: left;">김길웅이 입은 반팔티<br/>34,900원</p>
 					</div>
 				    <div class="col-4">
 			            <span class="image fit"><img src="test_image02.jpg" alt="" /></span>
-						<p>상품설명</p>
+						<p style="text-align: left;">김길웅이 입은 반팔티<br/>34,900원</p>
 					</div>
 					<div class="col-4">
 						<span class="image fit"><img src="test_image02.jpg" alt="" /></span>
-						<p>상품설명</p>
+						<p style="text-align: left;">김길웅이 입은 반팔티<br/>34,900원</p>
 					</div>
 				</div>
         </div>
