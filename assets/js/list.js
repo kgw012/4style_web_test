@@ -14,7 +14,8 @@ for(var i = 0; i < num; i++){
                                 <p class="info" style="text-align: left;">김길웅이 입은 반팔티<br/>34,900원</p>
                             </div>
                             <div class="col-1" style="padding-left: 0;">
-                                <p class="like"><br/>♥</p>
+                                <i><br/></i>
+                                <i class="like icon fa-heart" onclick="addLike(this);"></i>
                             </div>
                         </div>
 					</div>
@@ -25,7 +26,8 @@ for(var i = 0; i < num; i++){
                                 <p class="info" style="text-align: left;">김길웅이 입은 반팔티<br/>34,900원</p>
                             </div>
                             <div class="col-1" style="padding-left: 0;">
-                                <p class="like"><br/>♥</p>
+                                <i><br/></i>
+                                <i class="like icon fa-heart" onclick="addLike(this);"></i>
                             </div>
                         </div>
 					</div>
@@ -36,11 +38,23 @@ for(var i = 0; i < num; i++){
                                 <p class="info" style="text-align: left;">김길웅이 입은 반팔티<br/>34,900원</p>
                             </div>
                             <div class="col-1" style="padding-left: 0;">
-                                <p class="like"><br/>♥</p>
+                                <i><br/></i>
+                                <i class="like icon fa-heart" onclick="addLike(this);"></i>
                             </div>
                         </div>
 					</div>
 				</div>
         </div>
     `;
+}
+
+function addLike(obj){
+    if(obj.style.color === "tomato"){
+        obj.style.color = "#636363";
+        obj.className = "like icon fa-heart";
+    }
+    else{
+        obj.style.color = "tomato";
+        obj.className = "like fas fa-heart"
+    }
 }
