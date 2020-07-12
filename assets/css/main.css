@@ -3886,17 +3886,17 @@ input, select, textarea {
 
 @media screen and (max-width: 736px) {
 	.list *{
-		font-size: 9pt;
+		font-size: 0.75rem;
 	}
 	
 }
 @media screen and (max-width: 480px) {
 	.list *{
-		font-size: 7pt;
+		font-size: 0.6rem;
 	}
 }
 @media screen and (max-width: 360px) {
 	.list *{
-		font-size: 6pt;
+		font-size: 0.5rem;
 	}
 }
