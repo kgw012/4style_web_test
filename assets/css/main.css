@@ -3860,4 +3860,23 @@ input, select, textarea {
 		}
 
 /* 변경 */
-/* chart */
+/* 상품리스트 */
+
+@media screen and (max-width: 736px) {
+	#info{
+		font-size: 10px;
+
+	}
+}
+@media screen and (max-width: 480px) {
+	#info{
+		font-size: 9px;
+
+	}
+}
+@media screen and (max-width: 360px) {
+	#info{
+		font-size: 8px;
+
+	}
+}
