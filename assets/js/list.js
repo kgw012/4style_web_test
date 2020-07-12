@@ -48,15 +48,15 @@
 //     `;
 // }
 
-// function addLike(obj){
-//     if(obj.style.color === "tomato"){
-//         obj.style.color = "#636363";
-//         obj.className = "like icon fa-heart";
-//         alert("찜 목록에서 제외되었습니다.");
-//     }
-//     else{
-//         obj.style.color = "tomato";
-//         obj.className = "like fas fa-heart"
-//         alert("찜 목록에 추가되었습니다!");
-//     }
-// }
+function addLike(obj){
+    if(obj.style.color === "tomato"){
+        obj.style.color = "#636363";
+        obj.className = "like icon fa-heart";
+        alert("찜 목록에서 제외되었습니다.");
+    }
+    else{
+        obj.style.color = "tomato";
+        obj.className = "like fas fa-heart"
+        alert("찜 목록에 추가되었습니다!");
+    }
+}
