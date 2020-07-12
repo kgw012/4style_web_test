@@ -3862,18 +3862,36 @@ input, select, textarea {
 /* 변경 */
 /* 상품리스트 */
 
+.list .like{
+	font-size: 1.5em;
+	line-height: 25px;
+}
+
 @media screen and (max-width: 736px) {
-	#list #info{
+	.list .info{
 		font-size: 0.6em;
 	}
+	.list .like{
+		font-size: 1em;
+		line-height: 14px;
+	}
+	
 }
 @media screen and (max-width: 480px) {
-	#list #info{
+	.list .info{
 		font-size: 0.4em;
+	}
+	.list .like{
+		font-size: 0.8em;
+		line-height: 11px;
 	}
 }
 @media screen and (max-width: 360px) {
-	#list #info{
+	.list .info{
 		font-size: 0.2em;
+	}
+	.list .like{
+		font-size: 0.6em;
+		line-height: 11px;
 	}
 }
