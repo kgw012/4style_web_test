@@ -3880,7 +3880,7 @@ input, select, textarea {
 }
 @media screen and (max-width: 480px) {
 	.list{
-		font-size: 40$;
+		font-size: 40%;
 	}
 }
 @media screen and (max-width: 360px) {
