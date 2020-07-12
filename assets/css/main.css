@@ -3863,20 +3863,17 @@ input, select, textarea {
 /* 상품리스트 */
 
 @media screen and (max-width: 736px) {
-	#info{
-		font-size: 10px;
-
+	#list #info{
+		font-size: 0.6em;
 	}
 }
 @media screen and (max-width: 480px) {
-	#info{
-		font-size: 9px;
-
+	#list #info{
+		font-size: 0.4em;
 	}
 }
 @media screen and (max-width: 360px) {
-	#info{
-		font-size: 8px;
-
+	#list #info{
+		font-size: 0.2em;
 	}
 }
