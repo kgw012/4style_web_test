@@ -3860,9 +3860,16 @@ input, select, textarea {
 		}
 
 /* 변경 */
+#camera{
+	cursor: pointer;
+}
+
+
 /* 상품리스트 */
 
-
+.list .like{
+	cursor: pointer;
+}
 
 @media screen and (max-width: 736px) {
 	.list{
