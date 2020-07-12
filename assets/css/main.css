@@ -3892,11 +3892,11 @@ input, select, textarea {
 }
 @media screen and (max-width: 480px) {
 	.list{
-		font-size: 6pt;
+		font-size: 7pt;
 	}
 }
 @media screen and (max-width: 360px) {
 	.list{
-		font-size: 5pt;
+		font-size: 6pt;
 	}
 }
