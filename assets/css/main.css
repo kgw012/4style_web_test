@@ -3859,6 +3859,7 @@ input, select, textarea {
 
 		}
 
+
 /* 변경 */
 #camera{
 	cursor: pointer;
@@ -3873,17 +3874,17 @@ input, select, textarea {
 
 @media screen and (max-width: 736px) {
 	.list{
-		font-size: 0.6em;
+		font-size: 60%;
 	}
 	
 }
 @media screen and (max-width: 480px) {
 	.list{
-		font-size: 0.4em;
+		font-size: 40$;
 	}
 }
 @media screen and (max-width: 360px) {
 	.list{
-		font-size: 0.2em;
+		font-size: 20%;
 	}
 }
