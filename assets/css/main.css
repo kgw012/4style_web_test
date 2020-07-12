@@ -3861,30 +3861,42 @@ input, select, textarea {
 
 
 /* 변경 */
+
+/* 카메라모양 마우스 손가락모양 */
 #camera{
 	cursor: pointer;
 }
 
-
 /* 상품리스트 */
 
+.list .image.fit{
+	margin-bottom: 0;
+	width: auto;
+	max-height: 100%;
+}
+.list p{
+	text-align: left;
+}
 .list .like{
 	cursor: pointer;
+}
+.list .row.gtr-uniform{
+	padding-bottom: 5%;
 }
 
 @media screen and (max-width: 736px) {
 	.list{
-		font-size: 60%;
+		font-size: 8pt;
 	}
 	
 }
 @media screen and (max-width: 480px) {
 	.list{
-		font-size: 40%;
+		font-size: 6pt;
 	}
 }
 @media screen and (max-width: 360px) {
 	.list{
-		font-size: 20%;
+		font-size: 5pt;
 	}
 }
