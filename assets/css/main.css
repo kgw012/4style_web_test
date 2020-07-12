@@ -3870,17 +3870,18 @@ input, select, textarea {
 /* 상품리스트 */
 
 .list .image.fit{
+	/*이미지 박스*/
 	position: relative;
 	margin-bottom: 0;
 	padding-bottom: 140%;
 	width: 100%;
 }
 .list .image.fit img{
-	position: absolute;
+	/*작으면 확대*/
 	object-fit: cover;
-	width: 100%;
-	height: auto;
 
+	/*가운데정렬*/
+	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
