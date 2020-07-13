@@ -29,11 +29,11 @@ var myChart = new Chart(ctx, {
     
     options: {
         //hover이벤트 핸들링
-        // tooltips: 'enable',
-        // onHover: function(evt, elements)
-        // {   
-        //     $("#myChart").css("cursor", elements[0] ? "pointer" : "default");
-        // },
+        tooltips: { enabled: false },
+        onHover: function(evt, elements)
+        {   
+            $("#myChart").css("cursor", elements[0] ? "pointer" : "default");
+        },
 
         responsive: true,
         maintainAspectRatio : true,
