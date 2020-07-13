@@ -60,3 +60,9 @@ function addLike(obj){
         alert("찜 목록에 추가되었습니다!");
     }
 }
+
+function deleteLike(obj){
+    alert("찜 목록에서 제외되었습니다.");
+    var remove_object = obj.parentNode.parentNode.parentNode.parentNode;
+    obj.parentNode.parentNode.parentNode.parentNode.parentNode.removeChild(remove_object);
+}
