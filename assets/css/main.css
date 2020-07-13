@@ -3830,6 +3830,12 @@ input, select, textarea {
 			cursor: pointer;
 		}
 
+		#research-graph{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
 	/* 1-2.html 이미지 크기 반응형 */
 		@media screen and (max-width: 736px) {
 			
