@@ -11,24 +11,31 @@ var myChart = new Chart(ctx, {
             data: [50, 30, 20, 10, 10],
 			backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
-                'rgba(0, 0, 0, 0.2)',
-                'rgba(0, 0, 0, 0.2)',
-                'rgba(0, 0, 0, 0.2)',
-                'rgba(0, 0, 0, 0.2)'
+                'darkgrey',
+                'darkgrey',
+                'darkgrey',
+                'darkgrey'
             ],
             borderColor: [
                 'rgba(255, 99, 132, 1)',
-                'rgba(0, 0, 0, 1)',
-                'rgba(0, 0, 0, 1)',
-                'rgba(0, 0, 0, 1)',
-                'rgba(0, 0, 0, 1)'
+                'black',
+                'black',
+                'black',
+                'black'
             ],
-            borderWidth: 1
+            borderWidth: 1,
         }]
     },
     
     options: {
-        events: [],
+        //hover이벤트 핸들링
+        tooltips: 'enable',
+        onHover: function(evt, elements)
+        {   
+            $("#myChart").css("cursor", elements[0] ? "pointer" : "default");
+
+        },
+
         responsive: true,
         maintainAspectRatio : true,
         scales: {
@@ -74,8 +81,8 @@ document.getElementById("myChart").onclick = function(evt)
             colorArray[clickedElementindex].click = true;
         }
         else{
-            myChart.data.datasets[0].backgroundColor[clickedElementindex] = 'rgba(0, 0, 0, 0.2)';
-            myChart.data.datasets[0].borderColor[clickedElementindex] = 'rgba(0, 0, 0, 1)';
+            myChart.data.datasets[0].backgroundColor[clickedElementindex] = "darkgrey";
+            myChart.data.datasets[0].borderColor[clickedElementindex] = "black";
             colorArray[clickedElementindex].click = false;
         }
 		myChart.update();
