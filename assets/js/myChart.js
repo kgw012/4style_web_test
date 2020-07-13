@@ -29,10 +29,10 @@ var myChart = new Chart(ctx, {
     
     options: {
         //hover이벤트 핸들링
-        tooltips: { enabled: false },
+        tooltips: { enabled: false },   //툴팁없애기
         onHover: function(evt, elements)
         {   
-            $("#myChart").css("cursor", elements[0] ? "pointer" : "default");
+            $("#myChart").css("cursor", elements[0] ? "pointer" : "default");   //포인터모양 바꾸기
         },
 
         responsive: true,

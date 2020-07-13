@@ -3854,6 +3854,19 @@ input, select, textarea {
 		
 	/* 상품리스트 */
 
+		/*상품내용 왼쪽정렬 */
+			.list {
+				text-align: left;
+			}
+
+		/*상품박스 효과*/
+			.list .product-box{
+				border-radius: 8px;
+				padding: 0.3em 1em 0.3em 1em;
+				box-shadow: 0 1px 6px 0 rgba(0,0,0,.16);
+
+			}
+
 		/*이미지 박스*/
 			.list .image.fit{
 				position: relative;
@@ -3865,38 +3878,51 @@ input, select, textarea {
 		/*작으면 확대*/
 			.list .image.fit img{
 				object-fit: cover;
+				cursor: pointer;
 				/*가운데정렬*/
 					position: absolute;
 					top: 50%;
 					left: 50%;
 					transform: translate(-50%, -50%);
 			}
-
 			
-	.list p{
-		text-align: left;
-	}
-	.list .like{
-		cursor: pointer;
-	}
-	.list .row.gtr-uniform{
-		padding-bottom: 5%;
-	}
+		/* 상품이름, 가격에 밑줄 제거 */
+			.list a{
+				border-bottom: none;
+			}
 
-	@media screen and (max-width: 736px) {
-		.list *{
-			font-size: 0.75rem;
-		}
-		
-	}
-	@media screen and (max-width: 480px) {
-		.list *{
-			font-size: 0.6rem;
-		}
-	}
-	@media screen and (max-width: 360px) {
-		.list *{
-			font-size: 0.5rem;
-		}
-	}
+		/* 목록 맨 끝에 패딩추가 */
+			.list .row.gtr-uniform{
+				padding-bottom: 5%;
+			}
 
+	/* 찜하기 포인터변경 */
+		.list .like{
+			cursor: pointer;
+		}
+
+	
+	
+
+	/* 리스트 내 폰트사이즈 반응형*/
+		@media screen and (max-width: 736px) {
+			.list *{
+				font-size: 0.75rem;
+			}
+			
+		}
+		@media screen and (max-width: 480px) {
+			.list *{
+				font-size: 0.6rem;
+			}
+		}
+		@media screen and (max-width: 360px) {
+			.list *{
+				font-size: 0.5rem;
+			}
+		}
+
+	/* 페이지 넘김 밑줄제거 */
+		.pages a{
+			border-bottom: none;
+		}
