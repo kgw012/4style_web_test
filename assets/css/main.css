@@ -3848,6 +3848,8 @@ input, select, textarea {
 				max-width: 100%;
 				width: auto;
 			}
+
+			/* 1-2에 있는 차트 크기 반응형 */
 			#research-graph{
 				width: 100%;
 			}
