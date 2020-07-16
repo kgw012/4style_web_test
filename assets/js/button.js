@@ -21,12 +21,12 @@ buttons.name.forEach(function (e, index) {
     e.addEventListener('click', function(){
         if(buttons.isClicked[index])
         {
-            e.className = "button fit small";
+            e.className = "button small";
             buttons.isClicked[index] = false;
         }
         else
         {
-            e.className = "button primary fit small";
+            e.className = "button primary small";
             buttons.isClicked[index] = true;
         }
     });

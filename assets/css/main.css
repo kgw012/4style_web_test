@@ -3949,7 +3949,7 @@ input, select, textarea {
 			input[type="reset"],
 			input[type="button"],
 			button,
-			.button.cloth_button {
+			#first_section_2-2 .button {
 				min-width: 9em;
 			}
 
@@ -3959,7 +3959,7 @@ input, select, textarea {
 				input[type="reset"],
 				input[type="button"],
 				button,
-				.button.cloth_button {
+				#first_section_2-2 .button {
 					min-width: 6em;
 					font-size: 0.8em;
 				}
@@ -3972,7 +3972,7 @@ input, select, textarea {
 				input[type="reset"],
 				input[type="button"],
 				button,
-				.button.cloth_button {
+				#first_section_2-2 .button {
 					min-width: 5em;
 					font-size: 0.8em;
 				}
