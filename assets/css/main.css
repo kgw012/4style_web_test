@@ -3930,16 +3930,54 @@ input, select, textarea {
 			border-bottom: none;
 		}
 
-	/* 2-2 버튼 패딩 제거, 반응형 크기조절 */
-		#first_section_2-2 .button{
-			padding: 0 0 0 0;
-		}
+	/* 2-2.html 버튼 패딩 제거, 반응형 크기조절 */
 
-		@media screen and (max-width: 480px) {
-			#first_section_2-2 .button{	
-				font-size: 0.6em;
+		/* 버튼 패딩 제거 */
+			#first_section_2-2 .button{
+				padding: 0 0 0 0;
 			}
-		}
+
+			@media screen and (max-width: 480px) {
+				#first_section_2-2 .button{	
+					font-size: 0.8em;
+				}
+			}
+
+		/* 반응형 크기조절 */
+
+			input[type="submit"],
+			input[type="reset"],
+			input[type="button"],
+			button,
+			.button.cloth_button {
+				min-width: 9em;
+			}
+
+			@media screen and (max-width: 736px) {
+
+				input[type="submit"],
+				input[type="reset"],
+				input[type="button"],
+				button,
+				.button.cloth_button {
+					min-width: 6em;
+					font-size: 0.8em;
+				}
+
+			}
+
+			@media screen and (max-width: 480px) {
+
+				input[type="submit"],
+				input[type="reset"],
+				input[type="button"],
+				button,
+				.button.cloth_button {
+					min-width: 5em;
+					font-size: 0.8em;
+				}
+
+			}
 
 	/* log_in.html  // sign_up.html  페이지 body wrapper */
 
