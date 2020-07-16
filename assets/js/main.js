@@ -121,3 +121,21 @@
 		});
 
 })(jQuery);
+
+
+// 길웅수정, log in, sign up 버튼 구현
+var log_in_button = document.getElementById('log_in-button');
+var sign_up_button = document.getElementById('sign_up_button');
+
+if(log_in_button != null){
+	document.getElementById('log_in_button').onclick = function(evt)
+	{
+	};
+}
+
+if(sign_up_button != null){
+	document.getElementById('sign_up_button').onclick = function(evt)
+	{
+		alert("회원가입에 성공하였습니다!");
+	};
+}

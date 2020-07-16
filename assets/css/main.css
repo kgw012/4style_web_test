@@ -3940,3 +3940,42 @@ input, select, textarea {
 				font-size: 0.6em;
 			}
 		}
+
+	/* log_in.html  // sign_up.html  페이지 body wrapper */
+
+		/* wrapper2 */
+
+			#wrapper2 {
+				width: 40em;
+				max-width: calc(100% - 32em);
+				margin: 0 auto;
+			}
+
+			
+			@media screen and (max-width: 1280px) {
+
+				#wrapper2 {
+					max-width: calc(100% - 2em);
+				}
+
+			}
+			
+
+			@media screen and (max-width: 360px) {
+
+				#wrapper2 {
+					max-width: 100%;
+				}
+
+			}
+			
+
+	/* 맨 위에 로고 / 4Style 텍스트 클릭 손모양 */
+		
+		.logo img{
+			cursor: pointer;
+		}
+
+		#header h1 {
+			cursor: pointer;
+		}
