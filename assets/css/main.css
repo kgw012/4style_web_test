@@ -4019,3 +4019,7 @@ input, select, textarea {
 		}
 
 
+	/* 모바일환경 클릭 시 파란박스 없애기 */
+		*{
+			-webkit-tap-highlight-color: rgb(0,0,0,0);
+		}
