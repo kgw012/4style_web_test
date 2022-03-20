@@ -11,7 +11,7 @@ sample page : https://kgw012.github.io/4style_web_test/
 * gilwoong-outputs 폴더에 jsp, kakao api, 무신사 크롤링을 수행한 파일들이 있습니다.
 
 * gilwoong-outputs/4style_jsp  
-  이클립스를 이용한 jsp 프로젝트입니다.
+  jsp를 이용한 이클립스 프로젝트입니다.
   
 * gilwoong-outputs/Kakao_api/python/musinsa_codi_crawler.py  
   BeautifulSoup4를 이용한 무신사 홈페이지의 데이터 크롤러입니다.  
