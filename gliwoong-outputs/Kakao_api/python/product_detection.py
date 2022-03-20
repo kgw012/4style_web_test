@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 
 API_URL = 'https://dapi.kakao.com/v2/vision/product/detect'
-MYAPP_KEY = 'a659281409fe828af0540f54b5dcd3f0'
+MYAPP_KEY = ''
 
 def detect_product_image(filename):
     headers = {'Authorization': 'KakaoAK {}'.format(MYAPP_KEY)}
